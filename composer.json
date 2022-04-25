@@ -1,0 +1,28 @@
+{
+  "name": "ereminmdev/yii2-webp-hero",
+  "description": "Webp-hero assert for Yii framework.",
+  "keywords": [
+    "yii2",
+    "webp",
+    "webp hero"
+  ],
+  "homepage": "https://bitbucket.org/ereminmdev/yii2-webp-hero",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael Eremin",
+      "email": "ereminmdev@gmail.com",
+      "role": "developer"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.0",
+    "npm-asset/webp-hero": "^0.0.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "ereminmdev\\yii2\\webp_hero\\": ""
+    }
+  }
+}
